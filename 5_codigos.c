@@ -1,13 +1,12 @@
 #include <stdio.h>
  
 int main() {
-
     float valor1, valor2, divisao;
 
-    printf("Digite o primeiro valor: ");
+    printf("inisra o primeiro valor: ");
     scanf("%f", &valor1);
 
-    printf("Digite o segundo valor: ");
+    printf("inisra o segundo valor: ");
     scanf("%f", &valor2);
 
     if (valor2 != 0) {
@@ -16,11 +15,7 @@ int main() {
         printf("A divisão do primeiro valor pelo segundo é: %.2f\n", divisao);
 
     } else {
-
-        printf("Erro: Divisão por zero não é permitida.\n");
-
+        printf("erro: divisão por zero não é permitida.\n");
     }
-
     return 0;
-
 }
