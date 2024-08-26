@@ -3,21 +3,21 @@
 int main() {
     float nota1, nota2, nota3, nota4, total;
 
-    printf("Digite a primeira nota: ");
+    printf("insira a primeira nota:\n");
     scanf("%f", &nota1);
 
-    printf("Digite a segunda nota: ");
+    printf("insira a segunda nota:\n");
     scanf("%f", &nota2);
 
-    printf("Digite a terceira nota: ");
+    printf("insira a terceira nota:\n");
     scanf("%f", &nota3);
 
-    printf("Digite a quarta nota: ");
+    printf("insira a quarta nota:\n");
     scanf("%f", &nota4);
 
     total = nota1 + nota2 + nota3 + nota4;
 
-    printf("A pontuação total das quatro notas é: %.2f\n", total);
+    printf("a pontuação total das quatro notas é: %.2f\n", total);
 
     return 0;
 }
