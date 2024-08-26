@@ -5,7 +5,7 @@ int main() {
     float raio, diametro, comprimento, area;
     const float PI = 3.14;
 
-    printf("Digite o valor do raio da circunferência: ");
+    printf("inisra o valor do raio da circunferência: ");
     scanf("%f", &raio);
 
     diametro = 2 * raio;
@@ -14,9 +14,9 @@ int main() {
 
     area = PI * pow(raio, 2);
 
-    printf("Diâmetro: %.2f\n", diametro);
-    printf("Comprimento: %.2f\n", comprimento);
-    printf("Área: %.2f\n", area);
+    printf("diâmetro: %.2f\n", diametro);
+    printf("comprimento: %.2f\n", comprimento);
+    printf("área: %.2f\n", area);
 
     return 0;
 }
