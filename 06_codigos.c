@@ -3,7 +3,7 @@
 int main() {
     float peso_kg, peso_g;
 
-    printf("Digite o peso em quilos: ");
+    printf("Digite o peso em quilos:\n");
     scanf("%f", &peso_kg);
 
     peso_g = peso_kg * 1000;
