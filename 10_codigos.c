@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 int main() {
-
     int a, b, temp;
 
-    printf("Digite o valor da variável a: ");
+    printf("insira o valor da variável a: ");
     scanf("%d", &a);
-    printf("Digite o valor da variável b: ");
+    printf("insira o valor da variável b: ");
     scanf("%d", &b);
 
-    printf("Valores antes da troca:\n");
+    printf("valores antes da troca:\n");
     printf("a = %d\n", a);
     printf("b = %d\n", b);
 
@@ -17,10 +16,9 @@ int main() {
     a = b;
     b = temp;
 
-    printf("Valores após a troca:\n");
+    printf("valores após a troca:\n");
     printf("a = %d\n", a);
     printf("b = %d\n", b);
 
     return 0;
-    
 }
