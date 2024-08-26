@@ -2,7 +2,6 @@
 #include <math.h>
 
 int main() {
-
     float raio, diametro, comprimento, area;
     const float PI = 3.14;
 
@@ -20,5 +19,4 @@ int main() {
     printf("Área: %.2f\n", area);
 
     return 0;
-
 }
