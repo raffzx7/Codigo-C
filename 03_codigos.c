@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 int main() {
-
     float largura, altura, area;
 
-    printf("insira a largura do retângulo (em metros): ");
+    printf("insira a largura do retângulo (em metros):\n");
     scanf("%f", &largura);
 
-    printf("insira a altura do retângulo (em metros): ");
+    printf("insira a altura do retângulo (em metros):\n");
     scanf("%f", &altura);
 
     area = largura * altura;
