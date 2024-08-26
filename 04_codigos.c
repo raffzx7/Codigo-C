@@ -4,15 +4,15 @@ int main() {
 
     float valor1, valor2, diferenca;
 
-    printf("Digite o primeiro valor: ");
+    printf("insira o primeiro valor:\n");
     scanf("%f", &valor1);
 
-    printf("Digite o segundo valor: ");
+    printf("insira o segundo valor:\n");
     scanf("%f", &valor2);
 
     diferenca = valor1 - valor2;
 
-    printf("A diferença entre os dois valores é: %.2f\n", diferenca);
+    printf("a diferença entre os dois valores é: %.2f\n", diferenca);
 
     return 0;
 }
