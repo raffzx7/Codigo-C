@@ -3,9 +3,9 @@
 int main() {
     int a, b, temp;
 
-    printf("insira o valor da variável a: ");
+    printf("insira o valor da variável a:\n");
     scanf("%d", &a);
-    printf("insira o valor da variável b: ");
+    printf("insira o valor da variável b:\n");
     scanf("%d", &b);
 
     printf("valores antes da troca:\n");
